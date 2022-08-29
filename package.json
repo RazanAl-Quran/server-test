@@ -2,13 +2,16 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node":"14.x"
+  },
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage --verbose",
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "Rawan Nujoom <rawan.nujoom@gmail.com>",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
