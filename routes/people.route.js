@@ -19,6 +19,7 @@ async function getPeople(req,res) {
 // localhost:3000/people (body:{firstName:'razan',lastName:'quran'})
 async function createPerson(req,res) {
     let newPerson = req.body;
+    // log
     let person = await People.create(newPerson);
     res.status(201).json(person);
 }
